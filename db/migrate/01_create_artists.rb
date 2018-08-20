@@ -8,5 +8,6 @@ class CreateArtists < ActiveRecord::Migration
       t.string :genre
       t.integer :age
       t.string :hometown
+    end
   end
 end
